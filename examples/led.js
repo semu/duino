@@ -5,8 +5,7 @@ var board = new arduino.Board({
 });
 
 var led = new arduino.Led({
-  board: board,
-  pin: "A0"
+  board: board
 });
 
 board.on('ready', function(){
