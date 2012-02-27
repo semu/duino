@@ -46,6 +46,7 @@ void process() {
     case 2:  dr(pin);                   break;
     case 3:  aw(pin,val);               break;
     case 4:  ar(pin);                   break;
+    case 90: autoReply();               break;
     case 98: handleServo(pin,val,aux);  break;
     case 99: toggleDebug(val);          break;
     default:                            break;
@@ -64,6 +65,10 @@ void toggleDebug(char *val) {
     debug = true;
     Serial.println("hello");
   }
+}
+
+void autoReply() {
+   Serial.println('Is Dave there?'); 
 }
 
 /**
