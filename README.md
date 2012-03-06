@@ -1,3 +1,6 @@
+# duino - patched for Noduino
+[duino](https://github.com/ecto/duino/) is part of [Noduino](https://github.com/semu/noduino)'s core components. duino has been patched in order to fulfil Noduino's needs, so it's very likely your own code won't work with this version of duino!
+
 # duino
 
 A framework for working with Arduinos in node.js
